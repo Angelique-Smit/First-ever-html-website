@@ -1,55 +1,188 @@
-header {
-    margin-left: 10px;
-    padding: 0px;
-    font-size: 40px;
-    color: #29332C;
-}
-  
-main {
-    color: #29332C;
-    margin-left: 30px;
-    padding: 0px;
-    border: 0px;
-    font-size: 26px;
-}
-  
-p {
-    color: #9FC4A8;
-    margin-left: 10px;
-    padding: 0px;
-    border: 10px;
-    font-family: "Arial";
-    font-size: 16px;
-}
-  
-body {
-    background-color: #647A72;
-    margin: 50px;
-    padding: 3%;
-}
-  
-aside {
-    margin-left: 1000px;
-    
-}
-  
-a {
-    color:#29332C;
-    padding: 0px;
-    margin: 10px;
-}
-  
-a:hover {
-    color: #BAE6C5
-}
-  
-  nav {
-    width: 500px;
-    margin: 20px;
-    padding: 0px;
-    
+/* Body */
+    body {
+        background-color: #647A72;
+        margin: 0px;
+        padding: 0px;
+        }
+
+/* Body Parts */
+    nav {
+        width: 100%;
+        margin: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0px;
+        text-align: center;
+        background-color: #143230; 
     }
-  
-  .featured {
-    margin: 50px;
+
+    header {
+        margin: 0px;
+        padding: 40px;
+        text-align: center;
+        font-size: 40px;
+        color: #29332C;
+        border: 0px;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        background-color: #eef4ef;
+    }
+
+    main {
+        color: #29332C;
+        margin: 40px;
+    }
+
+    aside {
+        height: auto;
+        width: auto;
+        max-width: 400px;
+        max-height: 400px;
+        border-radius: 20%;
+        text-align: right;  
+    }
+
+    footer {
+        width: 100%;
+        background-color: #143230;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        text-align: center;
+        margin-top: 40px;
+
+    }
+
+/* .classes */
+    .tekst {
+        padding: 3%;
+    }
+
+    .opening  {
+        margin: 0px;
+        color: #29332C;
+    }
+
+    .opening2 {
+        color:#29332C;
+    }
+
+    .overMijSection {
+        color: #29332C;
+        margin-left: 80px;
+        padding: 0px;
+        border: 0px;
+        font-size: 26px;
+    }
+
+    .featured {
+        margin: 100px;
+    }
+
+    .mainBody {
+        column-count: 2;
+        width: 100%;
+    }
+    .mainBody2 {
+        width: auto;
+        text-align: center;
+        padding: 0px;
+        padding-left: 100px;
+    }
+
+    .fotoKat {
+        width: 100%;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+
+    .leren {
+        column-count: 2;
+        width: 100%; 
+        margin-top: 50px;   
+    }
+
+    .werk {
+        column-count: 2;   
+        width: 100%;
+        margin-top: 50px;
+    }
+
+/* Id Names */
+    #mijnFoto {
+        height: auto; 
+        width: auto; 
+        max-width: 500px; 
+        max-height: 500px;
+        border-radius: 20%;
+        text-align: right;
+    }
+
+    #hobbies {
+        text-align: left;
+    }
+    
+    #hobbies2 {
+        color:#29332C;
+        margin-left: 25%;
+    }
+    
+    #fotoKat {
+        height: auto; 
+        width: auto; 
+        max-width: 400px; 
+        max-height: 400px;
+        border-radius: 20%;
+        text-align: right;
+    }
+
+    #lijstHobbies {
+        font-style: italic;
+    }
+
+    #sprint1 {
+        height: auto; 
+        width: auto; 
+        max-width: 500px; 
+        max-height: 500px;
+        border-radius: 20%;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+
+/* Links */
+    a {
+        color: #647A72;
+        padding: 0px;
+        margin: 10px;
+    }
+
+    a:hover {
+        color: #BAE6C5;
+    }
+
+/* Onderdelen */
+
+    h2 {
+        font-size: 32px;
+        
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        color: #29332C;
+        margin: 0px;
+        padding-bottom: 10px;
+        border: 10px;
+        font-family: "Arial";
+        font-size: 16px;
+    }
+
+    li {
+        font-family: "Arial";
+        font-size: 16px;
+        padding: 10px;
     }
