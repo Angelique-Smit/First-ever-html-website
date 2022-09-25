@@ -66,18 +66,6 @@
         color:#29332C;
     }
 
-    .overMijSection {
-        color: #29332C;
-        margin-left: 80px;
-        padding: 0px;
-        border: 0px;
-        font-size: 26px;
-    }
-
-    .featured {
-        margin: 100px;
-    }
-
     .mainBody {
         column-count: 2;
         width: 100%;
@@ -105,6 +93,30 @@
         column-count: 2;   
         width: 100%;
         margin-top: 50px;
+    }
+
+    .email {
+        color:#647A72;
+    }
+
+    .game {
+        width: 100%;
+        column-count: 2;
+        margin-top: 50px;
+    }
+
+    .game2 {
+        width: 100%;
+        column-count: 2;
+        margin-top: 50px;
+    }
+
+    .jake {
+        padding-top: 50px;
+    }
+
+    .jasmine {
+        padding-top: 50px;
     }
 
 /* Id Names */
@@ -150,9 +162,33 @@
         margin-top: 50px;
     }
 
+    #gameVrouw {
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 450px;
+        border-radius: 20%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #gameMan {
+        height: auto; 
+        width: auto; 
+        max-width: 500px; 
+        max-height: 500px;
+        border-radius: 20%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #gameDesign2 {
+        margin: 10px;
+    }
+
 /* Links */
     a {
-        color: #647A72;
+        color: #BAE6C5;
         padding: 0px;
         margin: 10px;
     }
@@ -170,6 +206,12 @@
 
     h3 {
         font-size: 20px;
+    }
+
+    h4 {
+        color:#647A72;
+        font-size: 16px;
+        font-family: Arial;
     }
 
     p {
