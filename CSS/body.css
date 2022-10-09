@@ -1,0 +1,51 @@
+/* Body */
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #647A72;
+}
+
+nav {
+    width: 100%;
+    margin: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 0px;
+    text-align: center;
+    background-color: #143230; 
+    position: sticky;
+}
+
+header {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    margin: 0px;
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+    border: 0px;
+    text-align: center;
+    background-color: #143230; 
+}
+
+.email {
+    color: #BAE6C5;
+}
+
+/* Text */
+p {
+    font-size: 11px;
+}
+
+/* Links */
+a {
+    color: #BAE6C5;
+    padding: 0%;
+    margin: 1%;
+}
+
+a:hover {
+    color: white;
+}

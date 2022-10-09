@@ -1,0 +1,113 @@
+/* Header */
+    .head {
+        margin-bottom: 2%;
+        text-align: center;
+        background-color:white;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+/* CLE1 Robot */
+    .robotContainer {
+        display: flex;
+        max-width: 100%;
+        flex-direction: row;
+        margin-left: 2%;
+        justify-content: space-evenly;
+    
+    }
+
+    .cle1Robot {
+        margin-left: 1%;
+        flex-direction: row;
+        padding-right: 6%;
+        width: 50%;
+
+    }
+
+    .photoCle1 {
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .photoRobot {
+        max-height: 80%;
+        max-width: 80%;
+        height: auto;
+        width: auto;
+        border-radius: 20% ;
+        text-align: center;
+    }
+
+    /* Game Container*/
+    .gameContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .gameDesign {
+        margin-right: 1%;
+        flex-direction: row;
+        padding-left: 6%;
+        width: 50%;
+    }
+
+    .jake {
+        max-height: 60%;
+        max-width: 80%;
+        height: auto;
+        width: auto;
+        border-radius: 20%;
+        flex-direction: row;
+    }
+
+    .jakeText {
+        margin-right: 2%;
+        flex-direction: row;
+        padding-left: 6%;
+        width: 50%;
+    }
+
+    .h1 {
+        font-size: 36px;
+    }
+    
+    .h2 {
+        font-size: 28px;
+    }
+
+    .h3 {
+        font-size: 24px;
+    }
+    
+    .p {
+        font-size: 16px;
+    }
+
+    @media only screen and (max-width: 786px) {
+        .head2 {
+            font-size: 1rem;
+        }
+    
+        .h1 {
+            font-size: 1rem;
+        }
+    
+        .h2 {
+            font-size: 1rem;
+        }
+
+        .h3 {
+            font-size: 1rem;
+        }
+        
+        .p {
+            font-size: 1rem;
+        }
+    
+      }
+    
