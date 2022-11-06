@@ -1,4 +1,11 @@
 /* Hobby's */
+    header {
+        background-color: white;
+        padding: 2%;
+        padding-left: 47%;
+        justify-content: right;
+    }
+
     .hobbiesContainer {
         display: flex;
         flex-direction: row;

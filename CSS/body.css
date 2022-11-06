@@ -51,14 +51,3 @@ a {
 a:hover {
     color: white;
 }
-
-.h1 {
-    font-size: 32px;
-}
-
-/*Phone*/
-@media only screen and (max-width: 786px) {
-    .h1 {
-        font-size: 1rem;
-    }
-}
