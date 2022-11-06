@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/body.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+</head>
+<body>
+    <nav> 
+        <a href="index.html"> Homepage</a>
+        <a href="hobbies..html"> Hobby's</a>
+        <a href="opdracht.html"> Project </a>
+        <a href="contact.html"> Contact </a> 
+    </nav>
+
+    <main>
+        <section class="contactContainer">
+            <section class="contactForm">
+                <h2> Contact</h2>
+                    <form action="thanks.html">
+                        <div class="formField">
+                            <label for="firstName" class="label">First Name</label>
+                                <input type="text" 
+                                name="firstName"
+                                id="firstName"
+                                class="answer"
+                                placeholder="Please enter your first and last name"
+                                required>
+                        </div>
+                        <br>
+
+                        <div class="formField">
+                            <label for="email" class="label"> Email </label>
+                                <input type="email"
+                                name="email"
+                                id="email"
+                                class="answer"
+                                placeholder="Please enter your email adress"
+                                required>
+                        </div>
+                        <br>
+
+                        <div class="formField">
+                            <label for="contactType" class="label"> Inquiry </label>
+                                <select name="contactType"
+                                id="contactType"
+                                class="answer"
+                                required>
+                                    <option required
+                                    value="question"> I have a question </option>
+
+                                    <option value="apply"> I want to commission </option>
+
+                                    <option value="tip"> I have tips for your website </option>                
+                                </select>
+                        </div>
+                        <br>
+
+                        <div class="formField">
+                            <label for="contactType2" class="label"> Details about your inquiry </label>
+                            <textarea name="contactType2" id="contactType2" cols="30" rows="20" class="contactType2" required></textarea>
+                        </div>
+                        <br>
+
+                        <div class="formField">
+                            <label for="botCheck" class="label"> I am not a robot</label>
+                                <input type="checkbox"
+                                name="botCheck"
+                                id="botCheck"
+                                required>
+                        </div>
+                        <br>
+
+                        <div class="submit">
+                                <button type="submit"> Submit </button>
+                        </div>
+                        <br>
+                    </form>
+                </section>
+
+                <section class="contactGifBox"> 
+                    <img src="Photo/rikka-takanashi-takanashi-rikka.gif"
+                    alt="Gif pointing to the contact form"
+                    class="contactGif">
+                </section>
+            </section>
+    </main>
+    <footer>
+        <br>
+        <section class="footerContainer">
+            <section class="footerBox1">
+                <a href=https://www.twitch.tv/hammieowo> Twitch </a> 
+                <a href=https://www.instagram.com/hammie_x> Instagram </a> 
+                <a href=https://www.youtube.com/channel/UCVaJTgvH4sSjCLo5XNM4Rhg> Youtube </a>
+                <h4 class="email"> Email: ajd.smit@gmail.com</h4>
+            </section>  
+        </section>
+    </footer>
+</body>
+</html>

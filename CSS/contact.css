@@ -1,0 +1,79 @@
+/* ContactFlexbox*/
+    .contactContainer {
+        display: flex;
+        max-height: 100vh;
+    }
+
+    .contactForm {
+        width: 150vw;
+    }
+
+    .contactGifBox {
+        position: absolute;
+        top: 61.5%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        resize: none;
+    }
+
+/* Form bones*/
+    form input {
+        font-size: 16px;
+    }
+
+    form input[type=text] {
+        font-size: 20px;
+
+    }
+
+    .formField {
+        display:flex;
+        justify-content:left;
+        padding-left: 2%;
+
+    }
+
+    .submit {
+        text-align: center;
+        padding-right: 1%;
+    }
+
+    input:invalid {
+        border: 3px; 
+        color: red;
+    }
+
+/*Form questions CSS*/
+
+    .label {
+        width: 10%;
+        font-size: 16px;
+        padding-bottom: 0.5%;
+        margin-right: 10%;
+    }
+    
+    .answer {
+        width: 40%;
+    }
+
+    .contactType2 {
+        width: 40%;
+        height: 60%;
+        resize: none;
+    }
+
+/*Phone*/
+@media only screen and (max-width: 786px) {
+    .contactGifBox {
+        position: absolute;
+        top: 70%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        resize: none;
+    }
+
+    .contactGif {
+        max-width: 40vw;
+        max-height: 40vh;
+    }
+ }

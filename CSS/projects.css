@@ -13,22 +13,25 @@
     .robotContainer {
         display: flex;
         max-width: 100%;
+        max-height: 80%;
         flex-direction: row;
-        margin-left: 2%;
+        padding-left: 2%;
         justify-content: space-evenly;
     
     }
 
     .cle1Robot {
-        margin-left: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
         flex-direction: row;
         padding-right: 6%;
         width: 50%;
-
     }
 
     .photoCle1 {
         flex-direction: row;
+        padding-top: 2%;
         width: 50%;
     }
 
@@ -41,36 +44,117 @@
         text-align: center;
     }
 
-    /* Game Container*/
-    .gameContainer {
-        width: 100%;
+    /* Sprint 2/3 */
+    .lockerContainer {
+        max-width: 100%;
+        max-height: 20%;
+        height: auto;
+        width: auto;
+        padding-left: 5%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        margin-top: 2%;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
+        overflow-y: hidden;
+    }
+
+    .cle1Locker {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+
+    .photoLockerBox {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+        padding-left: 10%;
+    }
+
+    .photoLocker {
+        max-height: 50%;
+        max-width: 50%;
+        height: auto;
+        width: auto;
+        border-radius: 20% ;
+        text-align: center;
+    }
+
+    /* Game Container Jake*/
+    .gameContainer {
+        max-width: 100%;
+        max-height: 50%;
+        display: flex;
         justify-content: space-evenly;
     }
 
     .gameDesign {
-        margin-right: 1%;
         flex-direction: row;
         padding-left: 6%;
-        width: 50%;
     }
 
     .jake {
-        max-height: 60%;
-        max-width: 80%;
-        height: auto;
-        width: auto;
+        max-height: 70%;
+        max-width: 50%;
+        padding-top: 5%;
+        padding-left: 0%;
         border-radius: 20%;
         flex-direction: row;
     }
 
     .jakeText {
-        margin-right: 2%;
         flex-direction: row;
-        padding-left: 6%;
         width: 50%;
+        padding-right: 5%;
     }
+
+/* Game container Jasmine*/
+    .gameContainer2 {
+        max-width: 100%;
+        max-height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        overflow-y: hidden;
+    }
+
+    .jasminePhotoContainer {
+        flex-direction: row;
+        width: 45%;
+        padding-left: 6%;
+    }
+
+    .jasmine {
+        max-height: 70%;
+        max-width: 50%;
+        padding-top: 5%;
+        padding-left: 0%;
+        border-radius: 20%;
+        flex-direction: row;
+    }
+
+    .jasmineText {
+        flex-direction: row;
+        width: 50%;
+        padding-right: 5%;
+        padding-top: 3%;
+    }
+
+
+/*Footer because otherwise my footer will dissapear into naria on this HTML page too*/
+    footer {
+        width: 100%;
+        margin: 0%;
+        padding-top: 0,5%;
+        padding-bottom: 0%;
+        text-align: center;
+        position: sticky;
+        background-color: #143230; 
+    }
+
+/*Font-Size*/
 
     .h1 {
         font-size: 36px;
@@ -88,6 +172,7 @@
         font-size: 16px;
     }
 
+/*Phone*/
     @media only screen and (max-width: 786px) {
         .head2 {
             font-size: 1rem;
@@ -108,6 +193,5 @@
         .p {
             font-size: 1rem;
         }
-    
       }
     

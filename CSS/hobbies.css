@@ -1,82 +1,67 @@
-/*  Classes */
+/* Hobby's */
+    .hobbiesContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 40%;
+        padding-left: 0%;
+        padding-right: 0%;
+        
+    }
 
-.hobbiesContainer {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
-     width: 100%;
-     height: 40%;
-     padding-left: 0%;
-     padding-right: 0%;
-    
-}
+    .hobbiesBox1 {
+        height: 100%;
+        width: 50%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 
-.hobbiesBox1 {
-    height: 100%;
-    width: 50%;
-    padding-left: 2%;
-    padding-right: 2%;
-}
+    .hobbiesBox2 {
+        height: 100%;
+        width: 50%;
+        text-align: center;
+    }
 
-.hobbiesBox2 {
-    height: 100%;
-    width: 50%;
-    text-align: center;
-}
+    .fotoVanMij {
+        height: auto;
+        width: auto;
+        max-width: 37.25vw;
+        max-height: 37.25vw;
+        border-radius: 20%;
+    }
 
-.fotoVanMij {
-    height: auto;
-    width: auto;
-    max-width: 37.25vw;
-    max-height: 37.25vw;
-    border-radius: 20%;
-}
+/* What I want to learn*/
+    .learn {
+        margin-left: 2%;
+        margin-right: 50%;
+    }
 
-.learn {
-    margin-left: 2%;
-    margin-right: 50%;
-}
-
-/* Header */
-.head {
-    color: #29332C;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
-}
-
-.head2 {
-    font-size: 18px;
-}
-
-.h1 {
-    font-size: 28px;
-}
-
-.h2 {
-    font-size: 28px;
-}
-
-.p {
-    font-size: 16px;
-}
-
-/* Footer */ 
+/*Footer for the hobbies because otherwise my footer is somewhere in narnia*/
 footer {
     width: 100%;
-    margin: 0px;
-    padding-top: 1%;
-    padding-bottom: 0.1%;
-    border: 0px;
+    margin: 0%;
+    padding-top: 0,5%;
+    padding-bottom: 0%;
     text-align: center;
-    background-color: #143230; 
+    background-color: #143230;
+    position:sticky;
 }
 
-.email {
-    color: #BAE6C5;
-}
+/* Font size */
+    .h1 {
+        font-size: 28px;
+    }
 
+    .h2 {
+        font-size: 28px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+/* For Phone*/
 @media only screen and (max-width: 786px) {
     .head2 {
         font-size: 1rem;
@@ -93,5 +78,4 @@ footer {
     .p {
         font-size: 1rem;
     }
-
   }

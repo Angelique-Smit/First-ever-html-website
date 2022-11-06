@@ -1,0 +1,58 @@
+/*Thanks container*/
+    .thanksBox {
+        width: 100vw;
+        height: 81vh;
+        max-width: 100vw;
+        max-height: 80.6vh;
+        display: flex;
+        background-image: url("../Photo/good-job-lucky-star.gif");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .thanksBoxText {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(26, 24, 24);
+    }
+
+/*Footer because otherwise my footer will dissapear into naria on this HTML page too but in an entirely different way*/
+    footer {
+        width: 100%;
+        margin-top: 0%;
+        padding-top: 1%;
+        padding-bottom: 0%;
+        text-align: center;
+        position: sticky;
+        background-color: #143230; 
+        overflow: hidden;
+    }
+/* Font sizing*/
+
+.h1 {
+    font-size: 48px;
+    margin: 0%;
+}
+
+.h2 {
+    font-size: 38px;
+    margin: 0%;
+    padding-top: 1%;
+}
+
+.p {
+    font-size: 24px;
+    margin: 0%;
+    padding-top: 1%;
+}
+
+/*Phone*/
+@media only screen and (max-width: 786px) {
+    .h1 {
+        font-size: 1rem;
+    }
+}
